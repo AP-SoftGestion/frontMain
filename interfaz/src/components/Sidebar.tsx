@@ -23,6 +23,7 @@ const Sidebar: React.FC = () => {
         <Link href="/empleados" className="flex items-center mb-4 hover:bg-gray-700 p-2 rounded">
           <FaUser className={`mr-2 ${isCollapsed ? 'mr-auto' : 'text-base'}`} /> {isCollapsed ? '' : 'Empleados'}
         </Link>
+        
       </nav>
     </div>
   );
